@@ -1,7 +1,7 @@
 ---
 layout: "archive"
 title: "Archives"
-header-img: "img/header_img/archive_bg.jpg"
+header-img: "img/header_img/8.jpg"
 date: 2017-03-20 20:49:56
-description: "Don't rush and never settle...... If it's meant to be, it will be......"
+description: "故事开始于一个闷热无聊的夏日..."
 ---

@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Your Title
-subtitle: This is hexo theme
-author: Your Name
-language: en
+title: An Ordinary Life
+subtitle: 这是一个只属于我的小角落
+author: Mr.Li
+language: zh-CN
 timezone:
 
 
@@ -29,17 +29,15 @@ permalink_defaults:
 # Custom Setting Start
 
 # Site settings
-SEOTitle: either thin | or die
-email: hexo-theme-livemylife@gmail.com
+SEOTitle: Bin's Blog
+email: bin.cs@foxmail.com
 description: "It's an IT blog..."
 keyword: "v-vincen,v-vincen,livemylife,IT  blog,Blog"
 header-img: img/header_img/newhome_bg.jpg
 archives-img: img/header_img/archive_bg2.jpg
 
-
 # Favicon settings
-favicon: img/avatar/roguerabbit.jpg
-
+favicon: img/avatar/Bin.jpg
 
 # Signature Setup
 signature: true # show signature
@@ -52,19 +50,20 @@ wave: true
 
 # SNS Settings
 # RSS: true
-github_username: V-Vincen
-twitter_username: V_Vincen_
-instagram_username: v_vincen_
+github_username: lhb7
+# twitter_username: V_Vincen_
+# instagram_username: v_vincen_
 # facebook_username:  yourAccount
 # linkedin_username:  yourAccount
-# zhihu_username: WVincen
-weibo_username: WVincen
+zhihu_username: BinBin
+Email: bin.cs@foxmail.com
+# weibo_username: WVincen
 
 
 # Sidebar Settings
 sidebar: true   # whether or not using Sidebar.
-sidebar-about-description: "Fat people have no future, either thin or die..."
-sidebar-avatar: img/avatar/fatpeople.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "他说他想成为一个有趣的人..."
+sidebar-avatar: img/avatar/smile.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - visitor   # busuanzi: https://busuanzi.ibruce.info/
 - featured-tags
@@ -87,17 +86,11 @@ featured-condition-size: 0    # A tag will be featured if the size of it is more
 ## Friends
 friends: [
     {
-        title: "V_Vincen",
-        href: "https://v-vincen.life/"
-    },{
+        title: "Soptq",
+        href: "https://soptq.me/"
+        },{
         title: "Bean Tech",
         href: "http://beantech.org"
-    },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "Hexo",
-        href: "https://hexo.io/"
     }
 ]
 
@@ -108,28 +101,30 @@ friends: [
 ## Doc:https://github.com/gitalk/gitalk/blob/master/readme-cn.md
 ##
 gitalk:
-  owner:                          # 'GitHub repo owner'
-  admin:                          # 'GitHub repo'
-  repo:                           # ['GitHub repo owner and collaborators, only these guys can initialize github issues']
-  clientID:                       # 'GitHub Application Client ID'
-  clientSecret:                   # 'GitHub Application Client Secret'
+  enable: true
+  owner: lhb7                        # 'GitHub repo owner'
+  admin: ['lhb7']                      # 'GitHub repo'
+  repo: blogtalk                       # ['GitHub repo owner and collaborators, only these guys can initialize github issues']
+  clientID: 47449117adf283633d35                     # 'GitHub Application Client ID'
+  clientSecret: 32b5532868a181e51f3d926cb935cb8fddbdd4be                  # 'GitHub Application Client Secret'
   perPage: 10                     # Pagination size, with maximum 100.
   pagerDirection: last            # Comment sorting direction, available values are last and first.
-  createIssueManually: false      # By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this option to true
-  language: en                    # Localization language key, en, zh-CN and zh-TW are currently available.
+  createIssueManually: true      # By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this option to true
+  language: zh-CN                    # Localization language key, en, zh-CN and zh-TW are currently available.
   maxCommentHeight: 250           # An optional number to limit comments' max height, over which comments will be folded.Default 250.
 
 ## Gitment Settings
 ## Doc:https://github.com/imsun/gitment
 ##
 # gitment:
-#   owner:                          # Your GitHub ID. Required.
-#   repo:                           # The repository to store your comments. Make sure you're repo's owner. Required.
-#   client_id:                      # GitHub client ID. Required.
-#   client_secret:                  # GitHub client secret. Required.
-#   desc:                           # An optional description for your page, used in issue's body. Default ''.
-#   perPage: 10                     # An optional number to which comments will be paginated. Default 20.
-#   maxCommentHeight: 250           # An optional number to limit comments' max height, over which comments will be folded. Default 250.
+  # enable: true
+  # owner: lhb7                         # Your GitHub ID. Required.
+  # repo: blogtalk                          # The repository to store your comments. Make sure you're repo's owner. Required.
+  # client_id: 47449117adf283633d35                     # GitHub client ID. Required.
+  # client_secret: f5275312be0c3608b0071c893654b9c911282fe1                 # GitHub client secret. Required.
+  # desc:                           # An optional description for your page, used in issue's body. Default ''.
+  # perPage: 10                     # An optional number to which comments will be paginated. Default 20.
+  # maxCommentHeight: 250           # An optional number to limit comments' max height, over which comments will be folded. Default 250.
 
 ## Disqus settings
 ##
@@ -155,7 +150,6 @@ baidusitemap:
 baidu_push: true
 
 # Custom Setting End
-
 
 
 # Directory
@@ -227,6 +221,19 @@ markdown:
     linkify: true
     typographer: true
     quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-emoji  # add emoji
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: ¶
 
 
 # Build Settings
@@ -289,6 +296,8 @@ search:
 ##
 theme: livemylife
 
+mathjax:
+    enable: true
 
 # Gitter
 ## Docs:https://gitter.im/?utm_source=left-menu-logo
@@ -302,5 +311,5 @@ gitter:
 ##
 deploy:
   type: git
-  repo: https://github.com/<yourAccount>/<repo> # or https://gitee.com/<yourAccount>/<repo>
-  branch: <your-branch>
+  repo: git@github.com:lhb7/lhb7.github.io.git
+  branch: master

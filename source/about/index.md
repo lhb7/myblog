@@ -2,74 +2,38 @@
 layout: "about"
 title: "About"
 date: 2016-04-21 04:48:33
-description: "那些年吹过的牛逼，还有很多没有实现 ......"
-header-img: "img/scenery/about_bg.jpg"
+description: "将近的晚风快吹干整条小巷，燃尽的灯光无法再将我们点亮"
+header-img: img/header_img/1.jpg
 ---
 
-## Talk To Me
-
-> I always say to myself :
+> 心生向阳
 >
-> if my life is peaceful and plain sailing all the time ,
+> 未来可期
+
+第一次接触计算机知识大概是在成年以后，所以我学习cs的经历并不是一个能从小讲起的故事。高考结束之后，我也对自己的专业有过思考。当年的分数足够在母校里选择大多数的专业，而我只想一心搞钱，于是一入cs深如海，选择了这个容易早年秃顶，中年猝死的专业。
+
+所以故事从刚成年的夏天写起...
+
+18级四川大学计算机科学与技术（试验班）的混日子选手，目前在四川大学图形图像实验室和机器智能实验室下学习，完成一些比较基础的项目，暂时的研究方向为计算机视觉。
+
+
+
+### 项目&研究经历
+
+* 物体目标识别与跟踪项目(计算机视觉，网络优化，模块融合) :
+
+  Vehicle Flow Detection Based on Improved Deep Structure and Deep Sort - ICMIP2021: **Haobin Li**, Zhang Yi
+
+* 基于PaddlePaddle 的野生东北虎识别平台(计算机视觉，网络优化，参数改进，迁移学习) :
+* Utooth-口腔健康小游戏(微信云数据库，游戏引擎) :
+* 基于生成式对抗网络和端到端匹配网络的异源图像配准项目(计算机视觉，多模态融合) :
+* To be continued...
+
+
+
+### 联系方式
+
+> 请发送邮箱到：:email:bin.cs@foxmail.com
 >
-> it means to die in the electrocardiogram …
-
-
-
-## Just Me
-
-<img src="../img/scenery/about_bg2.jpg" width="350" alt="about_bg2"></img>
-
-> 有一种状态 叫一个人 它总是挑战语言的贫乏 只能在某首歌中找寻灵感；
+> 或者添加我的微信：BiningBin
 >
-> 有一种氨基酸 叫多巴胺 你不知道它何时会在你体内产生；
->
-> 有一种上瘾 叫抽烟 其实你抽的只是心情 又或是寂寞；
->
-> 有一种态度 叫纹身 其实我们只是想与众不同；
->
-> 有一种经历 叫旅行 年轻只有一次 不出去走走 或许以为眼前的就是世界；
->
-> 有一种人生 叫心电图 如果你总是一帆风顺 那么你就挂了；
->
-> 有一种悠闲 叫 " 老板给我杯Cappuccino " 香香甜甜 浓郁中带着苦涩 醇和而隽永 …
-
-
-
-## The Longest Way ...
-
-<img src="../img/scenery/about_bg4.jpg" width="350" alt="about_bg4"></img>
-
->  活在当下 然后忘记 继续往前走 ...
->
->  即便是一个人 ...
->
->  On the way to meet myself …
-
-
-## Follow With Interest Blogs
-
-> Neo Peng：https://zhile.io
->
-> 李卫民：https://www.funtl.com/zh/guide
->
-> duanxz：https://www.cnblogs.com/duanxz/tag
-> 
-> Java1234_小锋：http://blog.java1234.com/index.html
-> 
-> Deserts：https://deserts.io
->
-> Super Snail：https://www.dusign.net
->
-> KIERAN'S BLOG：https://go.kieran.top
->
-> Mr.Seven：https://itimetraveler.github.io
-
-## Contact me
-
-> Email：601521821@qq.com
-
-## Treat me to coffee
->  If you feel that what I have written is of some value to you, I am glad that you are willing to invite me to drink coffee...
-
-<img src="../img/scenery/treat_me_to_coffee.png" width="350" alt="treat_me_to_coffee.png"></img>
